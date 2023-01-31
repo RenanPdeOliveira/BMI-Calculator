@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textImc"
+        android:text="@string/text_imc"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/green_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:layout_below="@+id/textImc"/>
+
+    <TextView
+        android:id="@+id/textClassificacao"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_below="@+id/textResult"/>
+
+    <TextView
+        android:id="@+id/headTabela"
+        android:text="@string/head_tabela"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/green_2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textClassificacao"/>
+
+    <TextView
+        android:id="@+id/bodyTabela1"
+        android:text="@string/body_tabela1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/headTabela"/>
+
+    <TextView
+        android:id="@+id/bodyTabela2"
+        android:text="@string/body_tabela2"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/bodyTabela1"/>
+
+    <TextView
+        android:id="@+id/bodyTabela3"
+        android:text="@string/body_tabela3"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/bodyTabela2"/>
+
+    <TextView
+        android:id="@+id/bodyTabela4"
+        android:text="@string/body_tabela4"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/bodyTabela3"/>
+
+    <TextView
+        android:id="@+id/bodyTabela5"
+        android:text="@string/body_tabela5"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/bodyTabela4"/>
+
+    <TextView
+        android:id="@+id/bodyTabela6"
+        android:text="@string/body_tabela6"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/bodyTabela5"/>
+
+</RelativeLayout>
