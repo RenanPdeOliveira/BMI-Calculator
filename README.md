@@ -24,7 +24,6 @@ Calculadora de IMC foi meu primeiro aplicativo que desenvolvi para dar meus prim
 
 ### TODO
 * Melhorar estilização do app
-* Adicionar logo
 * Adicionar mais detalhes sobre os resultados
 
 ## Author
