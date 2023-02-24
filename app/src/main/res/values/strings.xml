@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">Calculadora do IMC</string>
-    <string name="peso">Digite seu peso:</string>
-    <string name="altura">Digite sua altura:</string>
-    <string name="button_calcular">Calcular</string>
-    <string name="text_imc">O valor do seu IMC é:</string>
-    <string name="head_tabela">Tabela:</string>
-    <string name="body_tabela1">Menor que 18.5 - Abaixo do peso</string>
-    <string name="body_tabela2">Entre 18.6 e 24.9 - Peso ideal</string>
-    <string name="body_tabela3">Entre 25 e 29.9 - Acima do peso</string>
-    <string name="body_tabela4">Entre 30 e 34.9 - Obesidade Grau 1</string>
-    <string name="body_tabela5">Entre 35 e 39.9 - Obesidade Grau 2</string>
-    <string name="body_tabela6">Acima de 40 - Obesidade Grau 3</string>
-    <string name="message_classificacao">CLASSIFICAÇÃO: %1$s!</string>
+    <string name="app_name">BMI Calculator</string>
+    <string name="weight">Type your weight:</string>
+    <string name="height">Type your height:</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="text_bmi">The result of your BMI:</string>
+    <string name="head_table">BMI Table:</string>
+    <string name="body_table1">Below 18.5 - Underweight</string>
+    <string name="body_table2">Between 18.6 and 24.9 - Normal</string>
+    <string name="body_table3">Between 25 and 29.9 - Overweight</string>
+    <string name="body_table4">Between 30 and 34.9 - Obesity class 1</string>
+    <string name="body_table5">Between 35 and 39.9 - Obesity class 2</string>
+    <string name="body_table6">Above 40 - Obesity class 3</string>
+    <string name="message_classification">CLASSIFICATION: %1$s!</string>
 </resources>

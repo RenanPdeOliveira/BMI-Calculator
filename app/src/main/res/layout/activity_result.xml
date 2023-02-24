@@ -8,8 +8,8 @@
     tools:context=".ResultActivity">
 
     <TextView
-        android:id="@+id/textImc"
-        android:text="@string/text_imc"
+        android:id="@+id/textBMI"
+        android:text="@string/text_bmi"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/green_2"
@@ -25,10 +25,10 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:padding="5dp"
-        android:layout_below="@+id/textImc"/>
+        android:layout_below="@+id/textBMI"/>
 
     <TextView
-        android:id="@+id/textClassificacao"
+        android:id="@+id/textClassification"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,8 +37,8 @@
         android:layout_below="@+id/textResult"/>
 
     <TextView
-        android:id="@+id/headTabela"
-        android:text="@string/head_tabela"
+        android:id="@+id/headTable"
+        android:text="@string/head_table"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/green_2"
@@ -47,60 +47,60 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/textClassificacao"/>
+        android:layout_below="@+id/textClassification"/>
 
     <TextView
-        android:id="@+id/bodyTabela1"
-        android:text="@string/body_tabela1"
+        android:id="@+id/bodyTable1"
+        android:text="@string/body_table1"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_below="@+id/headTabela"/>
+        android:layout_below="@+id/headTable"/>
 
     <TextView
-        android:id="@+id/bodyTabela2"
-        android:text="@string/body_tabela2"
+        android:id="@+id/bodyTable2"
+        android:text="@string/body_table2"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTabela1"/>
+        android:layout_below="@+id/bodyTable1"/>
 
     <TextView
-        android:id="@+id/bodyTabela3"
-        android:text="@string/body_tabela3"
+        android:id="@+id/bodyTable3"
+        android:text="@string/body_table3"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTabela2"/>
+        android:layout_below="@+id/bodyTable2"/>
 
     <TextView
-        android:id="@+id/bodyTabela4"
-        android:text="@string/body_tabela4"
+        android:id="@+id/bodyTable4"
+        android:text="@string/body_table4"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTabela3"/>
+        android:layout_below="@+id/bodyTable3"/>
 
     <TextView
-        android:id="@+id/bodyTabela5"
-        android:text="@string/body_tabela5"
+        android:id="@+id/bodyTable5"
+        android:text="@string/body_table5"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTabela4"/>
+        android:layout_below="@+id/bodyTable4"/>
 
     <TextView
-        android:id="@+id/bodyTabela6"
-        android:text="@string/body_tabela6"
+        android:id="@+id/bodyTable6"
+        android:text="@string/body_table6"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTabela5"/>
+        android:layout_below="@+id/bodyTable5"/>
 
 </RelativeLayout>

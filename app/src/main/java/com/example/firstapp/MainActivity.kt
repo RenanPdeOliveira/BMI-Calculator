@@ -14,18 +14,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnCalculate: Button = findViewById(R.id.btnCalculate)
-        val textPeso: EditText = findViewById(R.id.edtextPeso)
-        val textAltura: EditText = findViewById(R.id.edtextAltura)
+        val textWeight: EditText = findViewById(R.id.edtextWeight)
+        val textHeight: EditText = findViewById(R.id.edtextHeight)
 
         btnCalculate.setOnClickListener {
-            val pesoEmp = textPeso.text.toString()
-            val alturaEmp = textAltura.text.toString()
+            val weightEmp = textWeight.text.toString()
+            val heightEmp = textHeight.text.toString()
 
-            if (pesoEmp.isNotEmpty() && alturaEmp.isNotEmpty()) {
+            if (weightEmp.isNotEmpty() && heightEmp.isNotEmpty()) {
 
-                val peso: Float = pesoEmp.toFloat()
-                val altura: Float = alturaEmp.toFloat()
-                val result = peso / (altura * altura)
+                val weight: Float = weightEmp.toFloat()
+                val height: Float = heightEmp.toFloat()
+                val result = weight / (height * height)
 
                 val intent = Intent(this, ResultActivity::class.java)
                     .apply {
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 startActivity(intent)
             } else {
-                Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Fill in all fields!", Toast.LENGTH_SHORT).show()
             }
         }
     }

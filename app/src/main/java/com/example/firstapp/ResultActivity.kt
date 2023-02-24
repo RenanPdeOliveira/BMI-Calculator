@@ -14,27 +14,27 @@ class ResultActivity : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val imcClassificacao: TextView = findViewById(R.id.textClassificacao)
-        val telaResult: TextView = findViewById(R.id.textResult)
+        val bmiClassification: TextView = findViewById(R.id.textClassification)
+        val screenResult: TextView = findViewById(R.id.textResult)
         val result = intent.getFloatExtra("EXTRA_RESULT", 0.1f)
 
-        telaResult.text = result.toString()
+        screenResult.text = result.toString()
 
-        val classificacao = if (result <= 18.5) {
-            "Abaixo do peso"
+        val classification = if (result <= 18.5) {
+            "Underweight"
         } else if (result in 18.6..24.9) {
-            "Peso ideal"
+            "Normal"
         } else if (result in 25.0..29.9) {
-            "Acima do peso"
+            "Overweight"
         } else if (result in 30.0..34.9) {
-            "Obesidade Grau 1"
+            "Obesity class 1"
         } else if (result in 35.0..39.9) {
-            "Obesidade Grau 2"
+            "Obesity class 2"
         } else {
-            "Obesidade Grau 3"
+            "Obesity class 3"
         }
 
-        imcClassificacao.text = getString(R.string.message_classificacao, classificacao)
+        bmiClassification.text = getString(R.string.message_classification, classification)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
