@@ -9,98 +9,98 @@
 
     <TextView
         android:id="@+id/textBMI"
-        android:text="@string/text_bmi"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/green_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/text_bmi"
         android:textAlignment="center"
-        android:padding="10dp"/>
+        android:textColor="@color/green_2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textResult"
-        android:textSize="40sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
+        android:layout_below="@+id/textBMI"
         android:padding="5dp"
-        android:layout_below="@+id/textBMI"/>
+        android:textAlignment="center"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/textClassification"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
+        android:layout_below="@+id/textResult"
         android:padding="10dp"
-        android:layout_below="@+id/textResult"/>
+        android:textAlignment="center"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/headTable"
-        android:text="@string/head_table"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/green_2"
-        android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:layout_below="@+id/textClassification"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/textClassification"/>
+        android:padding="10dp"
+        android:text="@string/head_table"
+        android:textAlignment="center"
+        android:textColor="@color/green_2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/bodyTable1"
-        android:text="@string/body_table1"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/headTable"
         android:padding="10dp"
-        android:layout_below="@+id/headTable"/>
+        android:text="@string/body_table1"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/bodyTable2"
-        android:text="@string/body_table2"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/bodyTable1"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTable1"/>
+        android:text="@string/body_table2"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/bodyTable3"
-        android:text="@string/body_table3"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/bodyTable2"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTable2"/>
+        android:text="@string/body_table3"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/bodyTable4"
-        android:text="@string/body_table4"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/bodyTable3"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTable3"/>
+        android:text="@string/body_table4"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/bodyTable5"
-        android:text="@string/body_table5"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/bodyTable4"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTable4"/>
+        android:text="@string/body_table5"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/bodyTable6"
-        android:text="@string/body_table6"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/bodyTable5"
         android:padding="10dp"
-        android:layout_below="@+id/bodyTable5"/>
+        android:text="@string/body_table6"
+        android:textSize="20sp" />
 
 </RelativeLayout>
