@@ -1,30 +1,31 @@
-# Calculadora IMC
-Calculadora de IMC foi meu primeiro aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO. 
+# BMI Calculator
+EN - BMI Calculator was my first app that I developed to take my first steps with Android development. I participated in the 10D challenge at DevSpace community and made it out of ZERO.
 
+PT - Calculadora de IMC foi meu primeiro aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO.
 
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/results/Screenshot_IMC_1.png" width="260">&emsp;<img src="/results/Screenshot_IMC_2.png" width="260">&emsp;<img src="/results/Screenshot_IMC_3.png" width="260">
+<img src="/results/Screenshot_BMI_1.png" width="260">&emsp;<img src="/results/Screenshot_BMI_2.png" width="260">&emsp;<img src="/results/Screenshot_BMI_3.png" width="260">
 
-## Tecnologias
+## Technologies
 * Kotlin
-* Activity para host de telas
+* Activity to host screens
 * ViewGroup
     * RelativeLayout
-* Components de UI
+* UI Components
     * TextView
     * EditText
     * Button
-* Toast para display de mensagens
-* Intent Explicita para abrir a segunda Activity
-* FindViewById para recuperar components de UI
-* String resource para concatenação de textos
+* Toast to display messages
+* Intent Explicit to open a second Activity
+* FindViewById to recover UI components
+* String resource to text concatenation
 
 
 ### TODO
-* Melhorar estilização do app
-* Adicionar mais detalhes sobre os resultados
+* Improve app styling
+* Add more details about the results
 
 ## Author
 Renan Pires de Oliveira (connect with me on [Linkedin](https://www.linkedin.com/in/renan-pires-332568142/))
