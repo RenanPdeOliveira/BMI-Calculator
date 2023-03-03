@@ -4,43 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
     tools:context=".MainActivity">
-
-    <EditText
-        android:id="@+id/edtextWeight"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:hint="@string/weight"
-        android:inputType="numberDecimal"
-        android:maxLength="6" />
-
-    <EditText
-        android:id="@+id/edtextHeight"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/edtextWeight"
-        android:layout_marginTop="20dp"
-        android:hint="@string/height"
-        android:inputType="numberDecimal"
-        android:maxLength="4" />
-
-    <Button
-        android:id="@+id/btnCalculate"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="@string/button_calculate"
-        android:textStyle="bold"
-        app:cornerRadius="100dp" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="-20dp"
         app:srcCompat="@drawable/logoverticalbranco_170__removebg_preview" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="-20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/bmi_title"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/bmi_desc"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_ed_btn"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtextWeight"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_edt"
+            android:hint="@string/weight"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/green_2"
+            android:textColorHint="@color/green_2" />
+
+        <EditText
+            android:id="@+id/edtextHeight"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edt"
+            android:hint="@string/height"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/green_2"
+            android:textColorHint="@color/green_2" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/background_btn"
+            android:text="@string/button_calculate"
+            android:textColor="@color/green_2"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 </RelativeLayout>
