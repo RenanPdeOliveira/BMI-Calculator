@@ -13,10 +13,12 @@ PT - Calculadora de IMC foi meu primeiro aplicativo que desenvolvi para dar meus
 * Activity to host screens
 * ViewGroup
     * RelativeLayout
+    * LinearLayout
 * UI Components
     * TextView
     * EditText
     * Button
+    * ImageView
 * Toast to display messages
 * Intent Explicit to open a second Activity
 * FindViewById to recover UI components
