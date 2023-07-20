@@ -3,7 +3,6 @@ EN - BMI Calculator was my first app that I developed to take my first steps wit
 
 PT - Calculadora de IMC foi meu primeiro aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO.
 
-
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 <img src="/results/Screenshot_BMI_1.png" width="260">&emsp;<img src="/results/Screenshot_BMI_2.png" width="260">&emsp;<img src="/results/Screenshot_BMI_3.png" width="260">
@@ -24,10 +23,9 @@ PT - Calculadora de IMC foi meu primeiro aplicativo que desenvolvi para dar meus
 * FindViewById to recover UI components
 * String resource to text concatenation
 
-
 ### TODO
-* Improve app styling
-* Add more details about the results
+- [ ] Improve app styling
+- [ ] Add more details about the results
 
 ## Author
 Renan Pires de Oliveira (connect with me on [Linkedin](https://www.linkedin.com/in/renan-pires-332568142/))
